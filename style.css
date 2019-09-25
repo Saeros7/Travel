@@ -32,8 +32,8 @@ header{
 	display: none;}
 
 .header-container a:hover{
-background: #643a79;}
-
+	background: #643a79;}
+	
 .block1name{
 	font-size: 30px;
 	color: white;
@@ -133,14 +133,14 @@ content: attr(data-close);
 	margin:0 auto;
 	display: flex;
 	justify-content: space-around;
-	border:1px solid;
+	/*border:1px solid;*/
 	padding-bottom: 100px;
 }
 .blockcontainer1 h2{
 	color:white;
 }
 .slide1-block1{
-	border:1px solid;
+	/*border:1px solid;*/
 
 }
 .picture-block1{
@@ -153,7 +153,7 @@ content: attr(data-close);
 }
 
 .block1-text{
-	border:1px solid;
+	/*border:1px solid;*/
 	text-align: center;
 	padding-top:25px;
 }
@@ -181,14 +181,14 @@ content: attr(data-close);
 	margin:0 auto;
 	display: flex;
 	justify-content: space-around;
-	border:1px solid;
+	/*border:1px solid;*/
 	padding-bottom: 100px;
 }
 .blockcontainer1 h2{
 	color:white;
 }
 .slide1-block1{
-	border:1px solid;
+	/*border:1px solid;*/
 
 }
 .picture-block2{
@@ -197,7 +197,7 @@ content: attr(data-close);
 	text-align: center;
 }
 .block2-text {
-	border:1px solid;
+	/*border:1px solid;*/
 	text-align: center;
 	padding-top:25px;
 }
@@ -224,5 +224,22 @@ content: attr(data-close);
 
 }
 
-/*Блок 4
+/*Блок 4 */
 
+
+.slide4{
+	background-color: white;
+	padding-top: 100px;
+}
+.slide4 h1{
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.slide4 p{
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	padding-bottom: 45px;
+}
