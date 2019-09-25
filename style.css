@@ -106,7 +106,7 @@ content: attr(data-close);
 	font-size: 15px;
 }
 }
-/*Блок 2 версия */
+/*Блок 2 версия 2*/
 
 .slide2{
 	background-color: #17c2a4;
@@ -154,7 +154,7 @@ content: attr(data-close);
 	padding-top:25px;
 }
 
-/*Блок 3 версия */
+/*Блок 3 версия 2*/
 
 .slide3{
 	background-color: #e7f1f8;
@@ -187,9 +187,9 @@ content: attr(data-close);
 	border:1px solid;
 
 }
-.picture-block1{
-	width: 220px;
-	height: 150px;
+.picture-block2{
+	width: 210px;
+	height: 210px;
 	text-align: center;
 }
 .block2-text {
@@ -200,181 +200,25 @@ content: attr(data-close);
 .block2-text h2{
 	color:black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*2 Блок*/
-/*
-.block2{
-background: #17c2a4;
-padding-bottom: 130px;}
-.block2name{
-font-size: 35px;
-color: white;
-text-align: center; 
-padding-top: 140px;
+.block2-text h3{
+	color:#97d5ef;
+	padding:5px;
+	font-weight: bold;
+	font-size: 20px;
 }
-.hello3{
-font-size: 15px;
-text-align:center;
-color: white;
-padding-top: 50px;}
+.block2-text p{
+	padding-top:10px;
+	padding-bottom:0px;
+	color:black;
+}
+.icon-block{
+	width: 70%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 25px;
+	padding-left:;
+}
 
-.main-container1 {
-margin:0px 200px;}
+/*Блок 4
 
-.picture{	
-padding-top: 80px;}
-.picture ul{
-padding-left:5px; 
-display: flex;
-justify-content: space-between;}
-
-
-.picture li{
-padding:0px 75px;
-margin:0px 20px;}
-
-.pname ul{
-color: white;
-font-size: 30px;
-padding: 10px 60px;
-display: flex;
-justify-content: space-between;}
-
-.text ul{
-color: white;
-font-size: 15px;
-padding: 10px 100px;
-display: flex;
-justify-content: space-between;}
-*/
-/*3 Блок*/
-/*
-.block3{
-background: #e7f1f8;
-padding-bottom: 50px;}
-
-.block3name{
-font-size: 35px;
-color: black;
-text-align: center; 
-padding-top: 140px;}
-
-.team2{
-font-size: 15px;
-text-align:center;
-color: black;
-padding-top: 50px;}
-
-.main-container {
-margin:0px 150px;}
-
-.team31 {
-color: black;
-font-size: 30px;
-margin-top: 15px;
-padding-left:140px;}
-.team32 {
-color: black;
-font-size: 30px;
-margin-top: 15px;
-padding-left:300px;}
-.team33 {
-color: black;
-font-size: 30px;
-margin-top: 15px;
-padding-left:290px;}
-.team34 {
-color: black;
-font-size: 30px;
-margin-top: 15px;
-padding-left:295px;}
-
-.team41 {
-color: #55c2e9;
-font-size: 15px;
-margin-top: 5px;
-padding-left:130px;}
-.team42 {
-color: #55c2e9;
-font-size: 15px;
-margin-top: 5px;
-padding-left:295px;}
-.team43 {
-color: #55c2e9;
-font-size: 15px;
-margin-top: 5px;
-padding-left:285px;}
-.team44 {
-color: #55c2e9;
-font-size: 15px;
-margin-top: 5px;
-padding-left:270px;}
-
-.team51{
-color: black;
-font-size: 15px;
-margin-top: 5px;
-padding-left:140px;}
-.team52{
-color: black;
-font-size: 15px;
-margin-top: 5px;
-padding-left:310px;}
-.team53{
-color: black;
-font-size: 15px;
-margin-top: 5px;
-padding-left:295px;}
-.team54{
-color: black;
-font-size: 15px;
-margin-top: 5px;
-padding-left:295px;}
-
-.list1 {
-margin-top: 15px;
-padding-left: 120px;}
-.list2 {
-margin-top: 15px;
-padding-left:275px;}
-.list3 {
-margin-top: 15px;
-padding-left:260px;}
-.list4 {
-margin-top: 15px;
-padding-left:260px;}
-
-.list1 img {
-padding-left: 10px;}
-.list2 img {
-padding-left: 10px;}
-.list3 img {
-padding-left: 10px;}
-.list4 img {
-padding-left: 10px;}
-*/
-/*Блок 4*/
-/*
-.block4{
-background:white;
-padding-bottom: 120px;}
-.block4name{
-font-size: 35px;
-color: black;
-text-align: center; 
-padding-top: 140px;}
-*/
