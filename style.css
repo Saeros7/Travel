@@ -139,48 +139,45 @@ content: attr(data-close);
 .slide2{
 	background-color: #dbf8ff;
 	padding-top: 100px;
+	padding-bottom:50px;
+	color:black;
+	height: 850px;
 }
 .slide2 h1{
-	font-size: 25px;
-	color: white;
+	font-size: 50px;
 	text-align: center;
 	padding-bottom: 30px;
 }
 .slide2 p{
-	font-size: 15px;
-	color: white;
+	font-size: 30px;
 	text-align: center;
-	padding-bottom: 45px;
-}
-.blockcontainer1 {
-	width: 80%;
+	padding-bottom: 45px;}
+
+.container1 {
+	width: 50%;
 	margin:0 auto;
-	display: flex;
-	justify-content: space-around;
 	/*border:1px solid;*/
-	padding-bottom: 100px;
-}
-.blockcontainer1 h2{
-	color:white;
-}
-.slide1-block1{
-	/*border:1px solid;*/
+	padding-bottom: 100px;}
 
-}
-.picture-block1{
-	width: 220px;
-	height: 150px;
-	text-align: center;
-}
-.picture4-block1{
-	margin-top: -14px;
-}
+.picture1{
+	width:70px; 
+	height:70px;}
 
-.block1-text{
-	/*border:1px solid;*/
-	text-align: center;
+.block1text{
+	font-size: 20px;
+	font-weight: bold;
 	padding-top:25px;
-}
+	padding-left: 20px;}
+
+.block1{
+	margin-top: 30px; 
+	display: flex;}
+
+
+
+
+
+
 
 /*Блок 3 версия 2*/
 
