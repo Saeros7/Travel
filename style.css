@@ -192,96 +192,21 @@ content: attr(data-close);
 .button21:hover{
 background: #11ff00;
 border-color: black;
-box-shadow: 0 0 15px 15px;
+box-shadow: 0 0 7px 7px grey;
 color:white;}
 
-
-
-
-
-
-/*Блок 3 версия 2*/
-
-.slide3{
-	background-color: #e7f1f8;
-	padding-top: 100px;
-}
-.slide3 h1{
-	font-size: 25px;
-	color: black;
-	text-align: center;
-	padding-bottom: 30px;
-}
-.slide3 p{
-	font-size: 15px;
-	color: black;
-	text-align: center;
-	padding-bottom: 45px;
-}
-.blockcontainer1 {
-	width: 80%;
-	margin:0 auto;
-	display: flex;
-	justify-content: space-around;
-	/*border:1px solid;*/
-	padding-bottom: 100px;
-}
-.blockcontainer1 h2{
-	color:white;
-}
-.slide1-block1{
-	/*border:1px solid;*/
-
-}
-.picture-block2{
-	width: 210px;
-	height: 210px;
-	text-align: center;
-}
-.block2-text {
-	/*border:1px solid;*/
-	text-align: center;
-	padding-top:25px;
-}
-.block2-text h2{
-	color:black;
-}
-.block2-text h3{
-	color:#97d5ef;
-	padding:5px;
-	font-weight: bold;
+.block2text{
 	font-size: 20px;
-}
-.block2-text p{
-	padding-top:10px;
-	padding-bottom:0px;
-	color:black;
-}
-.icon-block{
-	width: 70%;
-	margin:0 auto;
-	display: flex;
-	justify-content: space-around;
-	padding-top: 25px;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-left: 20px;
+	display: block;}
 
-}
-
-/*Блок 4 */
-
-
-.slide4{
-	background-color: white;
-	padding-top: 100px;
-}
-.slide4 h1{
-	font-size: 25px;
-	color: black;
-	text-align: center;
-	padding-bottom: 30px;
-}
-.slide4 p{
+.pslide3{
 	font-size: 15px;
-	color: black;
-	text-align: center;
-	padding-bottom: 45px;
+	font-weight: normal;
+	padding-top: 10px;
+
 }
+
+
