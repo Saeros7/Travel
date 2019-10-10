@@ -13,8 +13,9 @@ a{
 	text-decoration: none;
 }
 header{
-	background:url(img/tour.jpg) no-repeat center top;
-	background-size: 100% 690px;
+	background:url(img/tour2.jpg) no-repeat center top;
+	background-size: 100% 950px;
+	height: 670px;
 	padding: 30px 0 250px 0 ;}
 
 .header-container{
@@ -22,11 +23,16 @@ header{
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;}
+
 .header-container a{
 	color: white;
-	margin-right: 63px;
-	font-size: 16px;
-	padding: 27px 6px;}
+	margin-right: 40px;
+	font-size: 20px;
+	padding: 20px 6px;}
+
+.main-menu{
+	padding-top: 15px;
+}
 
 #menu-checkbox{
 	display: none;}
@@ -35,30 +41,48 @@ header{
 	background: #643a79;}
 	
 .block1name{
+	font-size: 72px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-style: bold; 
+}
+.block2name{
 	font-size: 30px;
 	color: white;
 	text-align: center;
-	padding-top: 60px;
-	font-style: italic; 
+	padding-top: 20px;
+	font-style: bold;
+
 }
 
 .button1 {
-	width: 290px;
+	width: 350px;
 	border-style: solid;
 	border-width: 3px;
-	border-radius: 5px;
-    border-color: #c86a40;
-	margin: 60px auto 0 auto;
+	border-radius: 39px;
+    border-color: white;
+	margin: 120px auto 0 auto;
 }
 .button12 {	
-	width: 290px;
+	width: 350px;
 	height: 70px;
-	background: #eb7d4b;
-	border-color: #c86a40;
-	font-size: 25px;
-	color: white;
+	background: #f7ffa3;
+	border-color: white ;
+	border-radius: 30px;
+	box-shadow: 0 0 5px 5px;
+	font-size: 35px;
+	color: #6bd5ff;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+.button12:hover{
+background: #11ff00;
+border-color: black;
+box-shadow: 0 0 15px 15px;
+color:white;
+
 }
 
 ul{
@@ -113,7 +137,7 @@ content: attr(data-close);
 /*Блок 2 версия 2*/
 
 .slide2{
-	background-color: #17c2a4;
+	background-color: #dbf8ff;
 	padding-top: 100px;
 }
 .slide2 h1{
