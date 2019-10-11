@@ -1,212 +1,572 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="style.css"></link>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Self travel</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <div class="header-container">
-      <div class="logo"> 
-      <img src="img/11.png" alt="logo">
-      </div>
-    <input type="checkbox" id="menu-checkbox"> 
-    <nav role="navigation">
-      <label for="menu-checkbox" class="toggle-button" data-open="MENU" data-close="CLOSE">
-      </label>
-      <ul class="main-menu">
-      <li><a href="#">О нас</a></li>
-      <li><a href="#">Сравнить цены</a></li>
-      <li><a href="#">Контакты</a></li>
-      <li><a href="#">Подать заявку</a></li>
-      </ul>
- </nav>
-</div>
-<div class="block1name">
-  ОКУНИСЬ В НЕЗАБЫВАЕМОЕ <br>ПУТЕШЕСТВИЕ
-</div>
 
-<div class="block2name">
-  Путешествуй самостоятельно в свое удовольствие!<br>
-  Свобода действий и свобода выбора!
-</div>
+  <!-- Start your project here-->
+ <!--Main Navigation-->
+    <header>
 
-<div class="button1">
-<input type="button" class="button12" name="buy" value="Подать заявку!">
-</div>
-  </header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
-<main>
-  <section class="slide2">
-    <div><h1>О НАС</h1></div>
-    <div><p>Больше не нужно будет переплачивать за то, чтобы посмотреть краcивейшие места в<br>
-      разных странах мира.Выбор не будет ограничиваться "штампованными" экскурсиями <br>тур-операторов. Больше не нужно будет тратить время и нервы на подготовку к отдыху.</p>
-    </div>
+            <div class="container">
 
-<div class="container1">
+                <!-- Navbar brand -->
+                 <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" height="70" alt="mdb logo">
+                </a>
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-  <div class="block1">
-    <div class="picture1">
-       <img src="img/egipt.svg" alt="egipt">
-    </div>
-    <div class="block1text">
-        Мы поможем посетить лишь нужные Вам места в которые вы едете
-    </div>
-  </div>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
 
-  <div class="block1">
-    <div class="picture1">
-       <img src="img/map.svg" alt="map">
-    </div>
-    <div class="block1text">
-        Мы поможем вам сэкономить и предложим все варианты самостоятельной <br>транспортировки до нужного места
-    </div>
-  </div>
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto smooth-scroll form-inline my-2 my-lg-0 ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#programm">Программа</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feedback">Отзывы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ticket">Подать заявку</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Контакты</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
 
- <div class="block1">
-    <div class="picture1">
-       <img src="img/pig.svg" alt="pig">
-    </div>
-    <div class="block1text">
-        Мы подсчитаем и спланируем ваш бюджет на отпуск
-    </div>
-  </div>
- 
- <div class="block1">
-    <div class="picture1">
-       <img src="img/book.svg" alt="book">
-    </div>
-    <div class="block1text">
-       Мы подберем вам индивидуальную программу, которая нужна именно Вам.
-    </div>
-  </div>
+                    <!-- Social Icon  -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-instagram fa-4x" ></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Collapsible content -->
 
-<div class="block1">
-    <div class="picture1">
-       <img src="img/stars.svg" alt="stars">
-    </div>
-    <div class="block1text">
-       Мы сделаем всё за вас, вам останется только насладиться красотами Мира!
-    </div>
-  </div>
+            </div>
 
-  <div class="button2">
-    <input type="button" class="button21" name="buy" value="Подать заявку!">
-  </div>
-</div>
-  </section>
+        </nav>
+        <!--/.Navbar-->
 
-  <section class="slide2">
-    <div><h1>Что входит в программу</h1></div>
-    <div><p>Каждый день мы работаем, что бы путешествия<br>наших Клиентов были легкими и понятными</p>
-  </div>
+        <!--Mask-->
+        <div id="intro" class="view">
 
-<div class="container1">
+            <div class="mask rgba-black-light">
 
-  <div class="block1">
-    <div class="picture1">
-      <img src="img/V.svg" alt="accept">
-    </div>
-    <div class="block2text">
-        Персональная экскурсионная программа
-    <div class="pslide3">
-      Программа составляется исходя из Вашего желания по посещению мест,<br> согласно времени, которое вы готовы затратить на экскурсии
-    </div>
-    </div>
-  </div>
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
 
-  <div class="block1">
-    <div class="picture1">
-      <img src="img/V.svg" alt="accept">
-    </div>
-    <div class="block2text">
-        Прозрачный бюджет
-    <div class="pslide3">
-      Предоставляется расчет бюджета на составленные экскурсионные программы,<br> который включает в себя дорогу и стоимость входных билетов
-    </div>
-    </div>
-  </div>
+                    <div class="row d-flex justify-content-center text-center">
 
- <div class="block1">
-    <div class="picture1">
-      <img src="img/V.svg" alt="accept">
-    </div>
-    <div class="block2text">
-        Мы подсчитаем и спланируем ваш бюджет на отпуск
-    <div class="pslide3">
-      Придумать описание
-    </div>
-    </div>
-  </div>
- 
- <div class="block1">
-    <div class="picture1">
-      <img src="img/V.svg" alt="accept">
-    </div>
-    <div class="block2text">
-       Придумать заголовок
-    <div class="pslide3">
-      Предоставляется информация о времени работы посещаемых мест<br> и рекомендации по комфортному времени посещения
-    </div>
-    </div>
-  </div>
+                        <div class="col-md-10">
 
-<div class="block1">
-    <div class="picture1">
-      <img src="img/V.svg" alt="accept">
-    </div>
-    <div class="block2text">
-       Гибкая логистика
-  
-    <div class="pslide3">
-      Предоставляется вариабельность транспортировки: общественным транспортом,<br> арендованной машиной, пешей прогулкой и т.д.
-    </div>
-    </div>
-  </div>
+                            <!-- Heading -->
+                            <h2 class="display-5 font-weight-bold white-text pt-5 mb-4">ОКУНИСЬ В НЕЗАБЫВАЕМОЕ ПУТЕШЕСТВИЕ</h2>
 
-  <div class="button2">
-    <input type="button" class="button21" name="buy" value="Подать заявку!">
-  </div>
-</div>
-  </section>
+                            <!-- Divider -->
+                            <hr class="hr-light">
 
+                            <!-- Description -->
+                            <h4 class="white-text my-4">Путешествуй самостоятельно в свое удовольствие!<br>
+Свобода действий и свобода выбора!</h4>
+                            <a class="nav-link" href="#ticket">
+                            <button type="button" class="btn btn-outline-white" href="#ticket">Подать заявку<i class="fa fa-book ml-2"></i></button>
+                            </a>
+                        </div>
 
+                    </div>
 
+                </div>
 
+            </div>
 
+        </div>
+        <!--/.Mask-->
 
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-<script src="script.js"></script>
-  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+        <div class="container">
+
+            <!--Section: Best Features-->
+            <section id="aboutus" class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">О нас</h2>
+
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <!--Grid column-->
+                    <div class="col-md-8">
+
+                        <!-- Description -->
+                        <p class="grey-text">
+Больше не нужно будет переплачивать за то, чтобы посмотреть краcивейшие места в разных странах мира.Выбор не будет ограничиваться "штампованными" экскурсиями тур-операторов. Больше не нужно будет тратить время и нервы на подготовку к отдыху.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                        <i class="fas fa-archway fa-4x orange-text"></i>
+                       
+                        <p class="black-text my-4 font-weight-bold"> 
+Мы поможем посетить лишь нужные Вам места места, в которое вы едете.</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fas fa-map-marked-alt fa-4x orange-text"></i>
+                        
+                        <p class="black-text my-4 font-weight-bold">Мы поможем вам сэкономить и предложим все варианты самостоятельной транспортировки до нужного места.</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <div class="col-md-4 mb-1">
+                       <i class="fas fa-hand-holding-usd fa-4x orange-text"></i>
+                        
+                        <p class="black-text my-4 font-weight-bold">Мы подсчитаем и спланируем ваш бюджет на отпуск.</p>
+                    </div>
+                    <!--Grid column-->
+
+                      <div class="col-md-4 mb-1">
+                       <i class="fas fa-book-open fa-4x orange-text"></i>
+                        <p class="black-text my-4 font-weight-bold">Мы подберем вам индивидуальную программу, которая нужна именно Вам.</p>
+                    </div>
+
+                    <div class="col-md-4 mb-1">
+                       <i class="far fa-grin-wink fa-4x orange-text"></i>
+                        <p class="my-4 black-text font-weight-bold">Мы сделаем всё за вас, вам останется только насладиться красотами Мира!</p>
+                    </div>
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Best Features-->
+
+            <hr class="my-5">
+
+            <!--Section: Examples-->
+            <section id="programm" class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">Программы</h2>
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">МАЛЬДИВЫ</h4>
+                        <p class="grey-text">Тысяча сто девяносто два острова из Мальдивского архипелага с радостью примут Вас в свои объятия. Этот уникальный во всех смыслах курорт находится практически на самом экваторе, что обеспечивает жаркий климат круглый год.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">КАМЧАТКА</h4>
+                        <p class="grey-text">Полуостров Камчатка — это не только «отовсюду далеко». Это ещё и уникальные природные ландшафты, целебные источники, охота, рыбалка, древний уклад и обычаи местных жителей</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">ТАЙЛАНД</h4>
+                        <p class="grey-text">Таиланд – идеальное место для экзотического отдыха.Все больше туристов из западных стран стремятся провести отпуск в Юго-Восточной Азии. И статус лидера по посещаемости в данном регионе уже несколько лет остается за Таиландом – край первозданных пляжей, древних храмов, шумных городов и необычной кухни. </p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/images/10.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">БАЙКАЛ</h4>
+                        <p class="grey-text">Великий Байкал — самое прекрасное и самое величественное озеро на планете. Самое чистейшее и, без сомнения, самое красивое озеро по праву заняло свое место в списке 7 чудес России.
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">СТАМБУЛ</h4>
+                        <p class="grey-text">Турция – наиболее популярное место отдыха наших соотечественников, где находится прекрасный и величественный портовый город, улицы которого пропитаны историей, — Стамбул. Поэтому все, кто желает не просто позагорать под турецким солнцем, но и усовершенствовать свои знания мировой истории, проводят отпуск здесь</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay z-depth-1-half">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg" class="img-fluid" alt="">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">ЧЕРНОГОРИЯ</h4>
+                        <p class="grey-text">Черногория – небольшая, но очень живописная страна, расположенная в западной части Балканского полуострова. В большинстве стран мира Черногория известна как Монтенегро, хотя местное население называет свою страну «Црна Гора».</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Examples-->
+
+            <hr class="my-5">
+
+            <!--Section: Gallery-->
+            <section id="feedback">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold text-center">Отзывы</h2>
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-4">
+
+                        <!--Carousel Wrapper-->
+                        <div id="carousel-example-1z" class="carousel slide carousel-fade carousel-fade" data-ride="carousel">
+                            <!--Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                            </ol>
+                            <!--/.Indicators-->
+                            <!--Slides-->
+                            <div class="carousel-inner z-depth-1-half" role="listbox">
+                                <!--First slide-->
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                                        alt="First slide">
+                                </div>
+                                <!--/First slide-->
+                                <!--Second slide-->
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                                        alt="Second slide">
+                                </div>
+                                <!--/Second slide-->
+                                <!--Third slide-->
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                                        alt="Third slide">
+                                </div>
+                                <!--/Third slide-->
+                            </div>
+                            <!--/.Slides-->
+                            <!--Controls-->
+                            <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <!--/.Controls-->
+                        </div>
+                        <!--/.Carousel Wrapper-->
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+
+                        <!--Excerpt-->
+                        <a href="" class="teal-text">
+                            <h6 class="pb-1"><i class="fa fa-heart"></i><strong> Lifestyle </strong></h6>
+                        </a>
+                        <h4 class="mb-3"><strong>This is title of the news</strong></h4>
+                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                            quod maxime
+                            placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
+                            officiis
+                            debitis aut rerum.</p>
+
+                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                            quod maxime
+                            placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
+                            officiis
+                            debitis aut rerum.</p>
+                        <p>by <a><strong>Jessica Clark</strong></a>, 26/08/2016</p>
+                        <a class="btn btn-primary btn-md">Еще отзывы</a>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Gallery-->
+
+            <hr class="my-5">
+
+            <!--Section: Contact-->
+            <section id="ticket">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold text-center">Подать заявку</h2>
+
+                <!--Grid row-->
+                <div class="row justify-content-center">
+
+                    <!--Grid column-->
+                    <div class="col-lg-5 col-md-12">
+                        <!-- Form contact -->
+                        <form class="p-5 grey-text">
+                            <div class="md-form form-sm"> <i class="fa fa-user prefix"></i>
+                                <input type="text" id="form3" class="form-control form-control-sm">
+                                <label for="form3">Ваше имя</label>
+                            </div>
+                            <div class="md-form form-sm"> <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="form2" class="form-control form-control-sm">
+                                <label for="form2">Ваша почта</label>
+                            </div>
+                            <div class="md-form form-sm"> <i class="fas fa-globe-africa prefix"></i>
+                                <input type="text" id="form32" class="form-control form-control-sm">
+                                <label for="form34">Страна</label>
+                            </div>
+                            <div class="md-form form-sm"> <i class="fa fa-pencil prefix"></i>
+                                <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
+                                <label for="form8">Пожелания</label>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button class="btn btn-primary">Отправить <i class="fa fa-paper-plane-o ml-1"></i></button>
+                            </div>
+                        </form>
+                        <!-- Form contact -->
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    
+
+            </section>
+            <!--Section: Contact-->
+
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <!-- Social buttons -->
+        <div class="primary-color">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <!--Facebook-->
+                        <a class="fb-ic ml-0">
+                            <i class="fab fa-facebook white-text mr-4"> </i>
+                        </a>
+                        <!--Twitter-->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!--Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin-->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram white-text mr-lg-4"> </i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+        <!-- Social buttons -->
+
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-center text-md-left">
+            <div class="row mt-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Self Travel</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit.</p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Программы</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">MDBootstrap</a>
+                    </p>
+                    <p>
+                        <a href="#!">MDWordPress</a>
+                    </p>
+                    <p>
+                        <a href="#!">BrandFlow</a>
+                    </p>
+                    <p>
+                        <a href="#!">Bootstrap Angular</a>
+                    </p>
+                </div>
+                <!--/.Second column-->
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Useful links</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+                </div>
+                <!--/.Third column-->
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Контакты</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home"></i>  Russia, Moscow</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> SelfTravel@gmail.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 7 916 435 79 22</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 7 925 073 30 55</p>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
