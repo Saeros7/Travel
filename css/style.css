@@ -26,10 +26,10 @@ header,
 
 #intro {
     background: url(tour2.jpg) no-repeat center center fixed;
-    -webkit-background-size: 770px auto;
-    -moz-background-size: 770px auto;
-    -o-background-size: 770px auto;
-    background-size: 770px auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
    
     
