@@ -19,15 +19,17 @@ header,
   }
   @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;}
+      background-color: #24355C;}}
     
+  
+  @media (min-width: 100px) and (max-width: 769px){
     #intro {
     
     background: url(tour2.jpg) no-repeat center center fixed;
-    -webkit-background-size: auto 768px;
-    -moz-background-size: auto 768px;
-    -o-background-size: auto 768px;
-    background-size: auto 768px;
+    -webkit-background-size: auto 769px;
+    -moz-background-size: auto 769px;
+    -o-background-size: auto 769px;
+    background-size: auto 769px;
 }
     }
    
