@@ -20,26 +20,8 @@ header,
   @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;}}
-    
   
-  @media (min-width: 100px) and (max-width: 769px){
 
-   
-
-    .view:before{
-      content: '';
-      background-image:url(tour2.jpg);
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: -1;
-
-    }
-   
-    
-  }
   @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;
