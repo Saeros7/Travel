@@ -22,14 +22,14 @@ header,
       background-color: #24355C;}}
     
   
-  @media (min-width: 100px) and (max-width: 769px){
+  @media screen and handheld (min-width: 100px) and (max-width: 769px){
     #intro {
     
     background: url(tour2.jpg) no-repeat center center fixed;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
     }
    
