@@ -24,14 +24,14 @@ header,
   
   @media (min-width: 100px) and (max-width: 769px){
 
-#intro {
-  height: 850px;
-    background: url(tour2.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+    #intro {
+
+        background: url(tour2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: auto 100%;
+    }
    
     
   }
