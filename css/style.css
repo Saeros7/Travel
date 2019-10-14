@@ -13,12 +13,21 @@ header,
     background-size: cover;
 }
 
+
 .top-nav-collapse {
     background-color: #24355C;
   }
   @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;}
+    #intro {
+    background: url(tour5.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    }
    
     
   }
