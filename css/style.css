@@ -22,13 +22,22 @@ header,
   }
   @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;}}
+      background-color: #24355C;
+      font-size: 20px;
+      }
+     #socialicon{
+      justify-content:center;
+     }
+   }
   
 
   @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;
     }
+    #socialicon{
+      justify-content:center;
+     }
   }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) 
