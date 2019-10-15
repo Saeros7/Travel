@@ -6,7 +6,8 @@ header,
 
 }
 
-#intro {
+
+#intro{
     background: url(tour2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -29,6 +30,13 @@ header,
       background-color: #24355C;
     }
   }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) 
+and (max-device-width: 736px) and (min-device-width: 320px){
+#intro .slider-wrap .item .img-box {
+height: 290px;
+z-index: 2;
+}}
 
   .form-elegant .font-small {
 font-size: 0.8rem; }
