@@ -15984,3 +15984,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   bsCustomFileInput.init()
 });
+
+// всплывающее уведомление
+$('#cart_hint').fadeIn('slow');
+$('#cart_hint').delay(4000);
+$('#cart_hint').fadeOut('slow'); 

@@ -58,3 +58,27 @@ box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 25
 .form-elegant .btn:hover {
 -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
 box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+
+div#cart_hint {
+    position: fixed;
+    display: none;
+    background: black;
+    opacity: 0.8;
+    font-size: 11pt;
+    width: 220px;
+    text-align: left;
+    z-index: 1000;
+    top: 12px; right: 180px;
+
+    /* ie */
+    *top:expression( eval(document.body.scrollTop) + 'px' );
+    *position:absolute;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
